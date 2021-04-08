@@ -13,6 +13,7 @@ The aim of this project is to showcase a "real world" medium-sized web applicati
 - [ ] Better looking UI
 - [ ] Deploy with adapter to some PaaS
 - [ ] Add Likes/Rate to Episode/Character
+- [ ] Tests
 
 
 ## Developing
