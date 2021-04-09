@@ -1,6 +1,6 @@
 const windicss = require('svelte-windicss-preprocess').preprocess
 const sveltePreprocess = require('svelte-preprocess')
-const begin = require('@sveltejs/adapter-begin')
+const { begin } = require('@sveltejs/adapter-begin')
 const pkg = require('./package.json')
 
 /** @type {import('@sveltejs/kit').Config} */
