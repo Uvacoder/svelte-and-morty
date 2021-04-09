@@ -17,7 +17,8 @@
   <a
     href="/characters"
     class="mr-5 hover:text-gray-900 transition-color duration-200 ease-in-out {currentPath.includes(
-    '/character')
+      '/character'
+    )
       ? 'text-gray-900'
       : ''}">Characters</a
   >

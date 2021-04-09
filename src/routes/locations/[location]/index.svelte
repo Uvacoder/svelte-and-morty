@@ -34,7 +34,7 @@
       </div>
     </div>
     <div>
-      <CharactersMiniList characters={locationData.residents} title='Residents' />
+      <CharactersMiniList characters={locationData.residents} title="Residents" />
     </div>
   </div>
 </section>

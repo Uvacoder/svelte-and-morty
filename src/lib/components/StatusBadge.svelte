@@ -2,6 +2,8 @@
   export let status = 'unknown'
 </script>
 
+<span class="badge {status}" />
+
 <style lang="scss">
   .badge {
     width: 11px;
@@ -17,5 +19,3 @@
     }
   }
 </style>
-
-<span class="badge {status}" />
