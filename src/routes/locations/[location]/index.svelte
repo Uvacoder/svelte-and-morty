@@ -1,4 +1,5 @@
 <script context="module">
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   export async function load({ page, fetch }) {
     const { location } = page.params
     const res = await fetch(`https://rickandmortyapi.com/api/location/${location}`)

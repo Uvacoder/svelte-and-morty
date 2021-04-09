@@ -1,4 +1,5 @@
 <script context="module">
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   export async function load({ fetch }) {
     const res = await fetch(`https://rickandmortyapi.com/api/character`)
     const data = await res.json()

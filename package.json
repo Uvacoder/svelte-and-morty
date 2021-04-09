@@ -5,7 +5,7 @@
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
-		"lint": "prettier --check . && eslint --ignore-path .gitignore .",
+		"lint": "prettier --check",
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
@@ -14,9 +14,6 @@
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
-		"eslint": "^7.22.0",
-		"eslint-config-prettier": "^8.1.0",
-		"eslint-plugin-svelte3": "^3.1.0",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
 		"sass": "^1.0.0",
@@ -28,8 +25,5 @@
 		"vite": "^2.1.0",
 		"windicss": "^2.5.9"
 	},
-	"type": "module",
-	"dependencies": {
-		"chart.js": "^3.0.1"
-	}
+	"type": "module"
 }
